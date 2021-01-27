@@ -14,8 +14,8 @@ namespace IntDevPos.Modelos
         public string Date { get; set; }
         public string observations { get; set; }
         public string dlvDate { get; set; }
-        public double totalAmount { get; set; }
-        public double domicileAmount { get; set; }
+        public string totalAmount { get; set; }
+        public string domicileAmount { get; set; }
         public string paymTerm { get; set; }
         public Customer customer { get; set; }
         public List<SalesLinesList> salesLinesList { get; set; }

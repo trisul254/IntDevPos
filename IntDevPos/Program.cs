@@ -20,9 +20,10 @@ namespace IntDevPos
         static void Main(string[] args)
         {
 
-            Cp.LeerJsonTxt();  
+            Cp.LeerJsonTxt();
 
-            Console.ReadLine();
+            //Console.ReadLine();
+
         }
     }
 }

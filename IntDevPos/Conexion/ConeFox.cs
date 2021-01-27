@@ -38,6 +38,7 @@ namespace IntDevPos.Conexion
                 int filasAfectadas = 0;
                 try
                 {
+                    
                     connect.Open();      // Abre la conexion con el dbf
                     if (connect.State == ConnectionState.Open)
                     {
@@ -49,7 +50,7 @@ namespace IntDevPos.Conexion
                 }
                 catch (OleDbException exp)
                 {
-
+                     Console.WriteLine("Error al insertar " + exp.ToString());
                 }
                 return filasAfectadas;
             }
